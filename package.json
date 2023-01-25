@@ -1,0 +1,21 @@
+{
+  "nome":"apiUpload",
+  "version": "1.0.0",
+  "description": "API de Upload de arquivos",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exist 1",
+    "start": "nodemon ./app.js"
+  },
+
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
